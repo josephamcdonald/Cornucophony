@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Lengths in dp. -->
+    <dimen name="padding_standard">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="margin_standard">16dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="divider_standard">1dp</dimen>
+    <dimen name="button_standard">48dp</dimen>
+
+    <!-- Text in sp. -->
+    <dimen name="text_small">16sp</dimen>
+    <dimen name="text_standard">24sp</dimen>
+    <dimen name="text_large">32sp</dimen>
+</resources>

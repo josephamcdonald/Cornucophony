@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Grow With Google Challenge Scholarship: Android Basics
+     Project: 4
+     Version: 1.0
+     App Name: Cornucophony
+     Author: Joseph McDonald -->
+
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/padding_standard">
+
+    <TextView
+        android:id="@+id/app_pronounce"
+        style="@style/textview_standard_land"
+        android:text="@string/app_pronounce"
+        android:textSize="@dimen/text_large"
+        app:layout_constraintEnd_toStartOf="@+id/button_cornucophony"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/app_slogan"
+        style="@style/textview_standard_land_italic"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="@string/noun_abundance_noise"
+        app:layout_constraintEnd_toEndOf="@+id/app_pronounce"
+        app:layout_constraintStart_toStartOf="@+id/app_pronounce"
+        app:layout_constraintTop_toBottomOf="@+id/app_pronounce" />
+
+    <TextView
+        android:id="@+id/choose_your_noise"
+        style="@style/textview_standard_land"
+        android:layout_marginTop="@dimen/margin_small"
+        android:text="@string/select_noises"
+        app:layout_constraintEnd_toEndOf="@+id/app_slogan"
+        app:layout_constraintStart_toStartOf="@+id/app_slogan"
+        app:layout_constraintTop_toBottomOf="@+id/app_slogan" />
+
+    <Button
+        android:id="@+id/button_cornucophony"
+        style="@style/button_standard"
+        android:background="@drawable/cornucophony"
+        app:layout_constraintBottom_toTopOf="@+id/button_holiday"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/app_slogan"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_fun"
+        style="@style/button_standard"
+        android:background="@drawable/fun"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_scary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_cornucophony" />
+
+    <Button
+        android:id="@+id/button_scary"
+        style="@style/button_standard"
+        android:background="@drawable/scary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_holiday"
+        app:layout_constraintStart_toEndOf="@+id/button_fun"
+        app:layout_constraintTop_toBottomOf="@+id/button_cornucophony" />
+
+    <Button
+        android:id="@+id/button_holiday"
+        style="@style/button_standard"
+        android:background="@drawable/holiday"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_body"
+        app:layout_constraintStart_toEndOf="@+id/button_scary"
+        app:layout_constraintTop_toBottomOf="@+id/button_cornucophony" />
+
+    <Button
+        android:id="@+id/button_body"
+        style="@style/button_standard"
+        android:background="@drawable/body"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_holiday"
+        app:layout_constraintTop_toBottomOf="@+id/button_cornucophony" />
+
+</android.support.constraint.ConstraintLayout>

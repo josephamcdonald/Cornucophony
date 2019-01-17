@@ -1,0 +1,112 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Cornucophony</string>
+    <string name="app_pronounce">/ˌkôrn(y)əˈkäfənē/</string>
+    <string name="noun_abundance_noise">noun: an abundance of noise!</string>
+    <string name="select_noises">Click icons to make noise!</string>
+
+    <!-- Noise titles. -->
+    <string name="title_burp">Burp</string>
+    <string name="title_applause">Applause</string>
+    <string name="title_womp_womp" tools:ignore="Typos">Womp Womp</string>
+    <string name="title_rimshot">Rimshot</string>
+    <string name="title_scream">Scream</string>
+    <string name="title_chains">Chains</string>
+    <string name="title_fart">Fart</string>
+    <string name="title_evil_laugh">Evil Laugh</string>
+    <string name="title_sleigh_bells">Sleigh Bells</string>
+    <string name="title_drumroll">Drumroll</string>
+    <string name="title_hiccup">Hiccup</string>
+    <string name="title_hurl">Hurling</string>
+    <string name="title_boing">Boing</string>
+    <string name="title_jolly_elf">Jolly Elf</string>
+    <string name="title_church_bells">Church Bells</string>
+    <string name="title_ho_ho_ho" tools:ignore="Typos">Ho Ho Ho</string>
+    <string name="title_witch">Witch</string>
+    <string name="title_merry_xmas">Merry Christmas</string>
+    <string name="title_happy_halloween">Happy Halloween</string>
+    <string name="title_sneeze">Sneeze</string>
+    <string name="title_happy_holidays">Happy Holidays</string>
+    <string name="title_christmas_bell">Christmas Bell</string>
+    <string name="title_happy_new_year">Happy New Year</string>
+    <string name="title_silent_night">Silent Night</string>
+    <string name="title_jingle_bells">Jingle Bells</string>
+    <string name="title_ghost">Ghost</string>
+    <string name="title_creaky_door">Creaky Door</string>
+    <string name="title_bats">Bats</string>
+    <string name="title_moan">Moan</string>
+    <string name="title_haunted_organ">Haunted Organ</string>
+    <string name="title_belch">Belch</string>
+    <string name="title_long_belch">Long Belch</string>
+    <string name="title_long_fart">Long Fart</string>
+    <string name="title_cough">Cough</string>
+    <string name="title_crying_baby">Crying Baby</string>
+    <string name="title_toilet_flush">Toilet Flush</string>
+    <string name="title_old_horn">Old Horn</string>
+    <string name="title_wind_chimes">Chimes</string>
+    <string name="title_yippee">Yippee</string>
+    <string name="title_guitar">Guitar</string>
+
+    <!-- Noise durations. -->
+    <string name="duration_burp">0:02</string>
+    <string name="duration_applause">0:05</string>
+    <string name="duration_womp_womp">0:02</string>
+    <string name="duration_rimshot">0:04</string>
+    <string name="duration_scream">0:03</string>
+    <string name="duration_chains">0:07</string>
+    <string name="duration_fart">0:02</string>
+    <string name="duration_evil_laugh">0:05</string>
+    <string name="duration_sleigh_bells">0:05</string>
+    <string name="duration_drumroll">0:05</string>
+    <string name="duration_hiccup">0:02</string>
+    <string name="duration_hurl">0:04</string>
+    <string name="duration_boing">0:03</string>
+    <string name="duration_jolly_elf">0:05</string>
+    <string name="duration_church_bells">0:06</string>
+    <string name="duration_ho_ho_ho">0:03</string>
+    <string name="duration_witch">0:06</string>
+    <string name="duration_merry_xmas">0:04</string>
+    <string name="duration_happy_halloween">0:04</string>
+    <string name="duration_sneeze">0:02</string>
+    <string name="duration_happy_holidays">0:03</string>
+    <string name="duration_christmas_bell">0:06</string>
+    <string name="duration_happy_new_year">0:03</string>
+    <string name="duration_silent_night">0:10</string>
+    <string name="duration_jingle_bells">0:10</string>
+    <string name="duration_ghost">0:06</string>
+    <string name="duration_creaky_door">0:07</string>
+    <string name="duration_bats">0:05</string>
+    <string name="duration_moan">0:07</string>
+    <string name="duration_haunted_organ">0:06</string>
+    <string name="duration_belch">0:02</string>
+    <string name="duration_long_belch">0:07</string>
+    <string name="duration_long_fart">0:07</string>
+    <string name="duration_cough">0:02</string>
+    <string name="duration_toilet_flush">0:04</string>
+    <string name="duration_crying_baby">0:06</string>
+    <string name="duration_old_horn">0:03</string>
+    <string name="duration_wind_chimes">0:05</string>
+    <string name="duration_yippee">0:02</string>
+    <string name="duration_guitar">0:04</string>
+
+    <!-- Noise categories. -->
+    <string name="category_scary">Scary</string>
+    <string name="category_holiday">Holiday</string>
+    <string name="category_fun">Fun</string>
+    <string name="category_body">Body</string>
+    <string name="category_cornucophony">"Cornucophony"</string>
+
+    <!-- Noise item bullet. -->
+    <string name="item_bullet">•</string>
+
+    <!-- Noise item image descriptions. -->
+    <string name="play">play</string>
+    <string name="pause">pause</string>
+    <string name="unstar">unstar</string>
+    <string name="star">star</string>
+
+    <!-- Toast strings. -->
+    <string name="noisey">" is so NOISEY!"</string>
+    <string name="space">" "</string>
+    <string name="noises">" noises!"</string>
+
+</resources>
