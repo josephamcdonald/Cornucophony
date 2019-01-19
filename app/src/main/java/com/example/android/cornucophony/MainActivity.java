@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         // Find the app pronunciation text view.
-        TextView app_pronounce = findViewById(R.id.app_pronounce);
+        TextView appPronounce = findViewById(R.id.app_pronounce);
 
         // Find the noise category Buttons.
         Button buttonFun = findViewById(R.id.button_fun);
@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
         };
 
         // Set the mpOnClickListener to the app pronunciation text view.
-        app_pronounce.setOnClickListener(mpOnClickListener);
+        appPronounce.setOnClickListener(mpOnClickListener);
 
         // Set the noiseOnClickListener to the category Buttons.
         buttonFun.setOnClickListener(noiseOnClickListener);
